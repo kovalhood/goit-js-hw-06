@@ -1,5 +1,4 @@
 const inputEl = document.querySelector("input");
-console.log(inputEl);
 
 inputEl.addEventListener("blur", symbolsCheck);
 
