@@ -13,6 +13,7 @@ function onFormSubmit(event) {
     
     if (email == '' || password == '') {
         alert("Enter both input parameters!");
+        form.reset();
         return false;
     }
     
